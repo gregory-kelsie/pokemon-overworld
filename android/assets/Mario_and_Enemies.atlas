@@ -1,0 +1,20 @@
+
+Mario_and_Enemies.png
+size: 1024,32
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+walkingf
+  rotate: false
+  xy: 2, 2
+  size: 403, 26
+  orig: 403, 26
+  offset: 0, 0
+  index: -1
+walkingm
+  rotate: false
+  xy: 407, 3
+  size: 402, 25
+  orig: 402, 25
+  offset: 0, 0
+  index: -1

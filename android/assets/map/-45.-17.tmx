@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="49" height="40" tilewidth="16" tileheight="16" infinite="0" nextobjectid="48">
+ <properties>
+  <property name="bgm" value="mtmoon"/>
+  <property name="dayPokemonChances" value="Zubat,70;Geodude,18;Paras,10;Clefairy,2;"/>
+  <property name="dayPokemonLevels" value="7-11;7-9;10-10;9-9;"/>
+  <property name="fishPokemonChances" value=""/>
+  <property name="fishPokemonLevels" value=""/>
+  <property name="isCave" value="true"/>
+  <property name="mapName" value="Mt. Moon B1"/>
+  <property name="nightPokemonChances" value="Zubat,60;Geodude,28;Paras,10;Clefairy,2;"/>
+  <property name="nightPokemonLevels" value="7-11;7-9;10-10;9-9;"/>
+  <property name="waterPokemonChances" value=""/>
+  <property name="waterPokemonLevels" value=""/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="0"/>
+  <property name="yOffsetModifier" value="0"/>
+ </properties>
+ <tileset firstgid="1" source="Caveset 2.tsx"/>
+ <layer name="Grass" width="49" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3XwQmAMBAAwWAd9l+nJegj4prMwH1zLNwnY7CC83g+b7/3xU4NGqo0NGho0NCgoWHVhhmjYb8GuLPCfWpo0NCgoUFDg4YGDfP3//FPoqHRwD4uoZo+JqAeAAA=
+  </data>
+ </layer>
+ <layer name="Collisions" width="49" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+2ZSw7DIAxEo5yrR+iKq+T+UhcVSoQwDPaYj8JIbPg8M6WGkByHrG+hLbZ/Trx48qSxb/EQzn+pKTTwrqQgPImNxJRi1GJKvFCY91MX0UOLmL9JypvJg5Zn8dBaEF7rPEttb1kHbUw2Lzc2zXt2TDZv9XXI5VHc3xgx0ZxEebn+0n6BnkloHKQ/24OGWWOMyIeW5y/tc17NA3omrOpB00+j7WE9D9rx6f7kVSwekBybfR0s+wRDHv+l7YEzB+v4nh6s+RwZSJ2XtoebgdR5aXu4GUidl9j3DybXEp/BWNFD+v6ytwfGPWp7sHtAv088Fd/fS2NHePDg9pJXrBFn3Gx3w9b5e7F7qZeHH7QBBBSgHgAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="49" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3X2xGAIAxE0R0oRjvRnrATLFYoAEYFNTL3FLB5fCUSrAle2vzXXbSJqf/9oRmu7mZy0uz65bXUyu7sZkmZayG3965rtQAAAFB25ha0jltwXOHnP2YWB5gBAAAAdvHTAe85AChwZP+gHgAA
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="49" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3XOwrAIAwAUGmP6HF6eSkuiosOjVjeg2whH8QhKfGFfPUR0W9HzYjdWs89nzsz20o9oIr+94y8AQAAAJzvD/e9HfY5dW6AVwEnOChjoB4AAA==
+  </data>
+ </layer>
+ <objectgroup color="#ff0000" name="col">
+  <object id="2" x="112" y="16" width="16" height="208"/>
+  <object id="3" x="32" y="0" width="80" height="16"/>
+  <object id="4" x="16" y="16" width="16" height="288"/>
+  <object id="5" x="32" y="304" width="352" height="16"/>
+  <object id="6" x="384" y="224" width="16" height="80"/>
+  <object id="7" x="112" y="224" width="272" height="32"/>
+  <object id="8" x="96" y="192" width="16" height="16"/>
+  <object id="9" x="80" y="176" width="16" height="16"/>
+  <object id="10" x="96" y="144" width="16" height="16"/>
+  <object id="11" x="32" y="16" width="80" height="32"/>
+  <object id="13" x="256" y="0" width="176" height="32"/>
+  <object id="14" x="256" y="32" width="32" height="16"/>
+  <object id="15" x="256" y="48" width="16" height="16"/>
+  <object id="16" x="416" y="32" width="16" height="32"/>
+  <object id="17" x="432" y="64" width="16" height="32"/>
+  <object id="18" x="256" y="96" width="176" height="16"/>
+  <object id="19" x="240" y="64" width="16" height="32"/>
+  <object id="20" x="576" y="0" width="176" height="32"/>
+  <object id="21" x="576" y="32" width="16" height="48"/>
+  <object id="22" x="592" y="32" width="16" height="32"/>
+  <object id="23" x="608" y="32" width="48" height="16"/>
+  <object id="24" x="736" y="32" width="16" height="32"/>
+  <object id="25" x="752" y="64" width="16" height="32"/>
+  <object id="26" x="576" y="96" width="176" height="16"/>
+  <object id="27" x="560" y="80" width="16" height="16"/>
+  <object id="28" x="384" y="512" width="288" height="32"/>
+  <object id="29" x="384" y="544" width="32" height="16"/>
+  <object id="30" x="384" y="560" width="16" height="16"/>
+  <object id="31" x="368" y="576" width="16" height="16"/>
+  <object id="32" x="384" y="592" width="336" height="16"/>
+  <object id="33" x="720" y="336" width="16" height="256"/>
+  <object id="34" x="640" y="336" width="16" height="176"/>
+  <object id="35" x="656" y="304" width="64" height="32"/>
+  <object id="36" x="656" y="496" width="16" height="16"/>
+  <object id="37" x="592" y="544" width="64" height="16"/>
+ </objectgroup>
+ <objectgroup name="warp">
+  <object id="39" x="688" y="336" width="16" height="16">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-18"/>
+    <property name="x" type="float" value="32.5"/>
+    <property name="y" type="float" value="23"/>
+   </properties>
+  </object>
+  <object id="40" x="408.5" y="568" width="13.5" height="13.5">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-16"/>
+    <property name="x" type="float" value="17.5"/>
+    <property name="y" type="float" value="8"/>
+   </properties>
+  </object>
+  <object id="42" x="402.5" y="67.5" width="10.5" height="10">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-18"/>
+    <property name="x" type="float" value="19"/>
+    <property name="y" type="float" value="24.75"/>
+   </properties>
+  </object>
+  <object id="43" x="266" y="77" width="11.5" height="10.5">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-16"/>
+    <property name="x" type="float" value="31.5"/>
+    <property name="y" type="float" value="27.25"/>
+   </properties>
+  </object>
+  <object id="44" x="50.5" y="51.5" width="10.5" height="11.5">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-18"/>
+    <property name="x" type="float" value="5"/>
+    <property name="y" type="float" value="33"/>
+   </properties>
+  </object>
+  <object id="45" x="362" y="282.5" width="11.5" height="12.5">
+   <properties>
+    <property name="direction" type="int" value="3"/>
+    <property name="warpLocation" value="-45.-16"/>
+    <property name="x" type="float" value="27"/>
+    <property name="y" type="float" value="18.75"/>
+   </properties>
+  </object>
+  <object id="46" x="619" y="60" width="9.5" height="9.5">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="-45.-16"/>
+    <property name="x" type="float" value="4"/>
+    <property name="y" type="float" value="29"/>
+   </properties>
+  </object>
+  <object id="47" x="722.5" y="67" width="10.5" height="11">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="5.-4"/>
+    <property name="x" type="float" value="4"/>
+    <property name="y" type="float" value="15"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

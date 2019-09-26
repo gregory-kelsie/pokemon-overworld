@@ -1,0 +1,160 @@
+
+PlayableCharacters.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+brendan
+  rotate: false
+  xy: 688, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+brock
+  rotate: false
+  xy: 100, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+bugcatcher
+  rotate: false
+  xy: 590, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+crystal
+  rotate: false
+  xy: 492, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+dawn
+  rotate: false
+  xy: 296, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+ethan
+  rotate: false
+  xy: 2, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+female1
+  rotate: false
+  xy: 394, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+hiker
+  rotate: false
+  xy: 590, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 394, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+lyra
+  rotate: false
+  xy: 590, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+male1
+  rotate: false
+  xy: 2, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+martm
+  rotate: false
+  xy: 296, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+may
+  rotate: false
+  xy: 492, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+oak
+  rotate: false
+  xy: 394, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+oldm
+  rotate: false
+  xy: 492, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+picnickerf
+  rotate: false
+  xy: 2, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+picnickerm
+  rotate: false
+  xy: 198, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 198, 262
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+rocketm
+  rotate: false
+  xy: 100, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+scientistf
+  rotate: false
+  xy: 100, 132
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+scientistm
+  rotate: false
+  xy: 198, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1
+youngster
+  rotate: false
+  xy: 296, 2
+  size: 96, 128
+  orig: 96, 128
+  offset: 0, 0
+  index: -1

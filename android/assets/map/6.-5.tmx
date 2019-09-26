@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="24" height="40" tilewidth="16" tileheight="16" infinite="0" nextobjectid="2">
+ <properties>
+  <property name="dayPokemonChances" value="Weedle,12;Caterpie,13;Bellsprout,15;Pidgey,15;Kakuna,15;Metapod,15;Abra,14;Weepinbell,1;"/>
+  <property name="dayPokemonLevels" value="7-7;7-7;12-14;12-13;8-8;8-8;8-12;12-12;"/>
+  <property name="fishPokemonChances" value="Magikarp,43;Krabby,20;Horsea,20;Gyarados,15;Psyduck,1;Slowpoke,1;"/>
+  <property name="fishPokemonLevels" value="5-15;5-35;5-35;15-25;25-35;25-35;"/>
+  <property name="isCave" value="false"/>
+  <property name="nightPokemonChances" value="Oddish,33;Venonat,33;Abra,32;Venomoth,1;Gloom,1;"/>
+  <property name="nightPokemonLevels" value="12-14;13-16;8-12;10-10;12-12;"/>
+  <property name="waterPokemonChances" value="Tentacool,50;Goldeen,49;Seaking,1;"/>
+  <property name="waterPokemonLevels" value="5-40;5-14;10-14;"/>
+  <property name="wildProbability" value="10"/>
+  <property name="xOffsetModifier" value="384"/>
+  <property name="yOffsetModifier" value="-320"/>
+ </properties>
+ <tileset firstgid="1" source="Path1.tsx"/>
+ <tileset firstgid="425" source="Path0.tsx"/>
+ <tileset firstgid="721" source="Fences01.tsx"/>
+ <tileset firstgid="1155" source="Cliffs02.tsx"/>
+ <tileset firstgid="1267" source="Cliffs01.tsx"/>
+ <tileset firstgid="1497" source="various3.tsx"/>
+ <tileset firstgid="2033" source="Buildings7.tsx"/>
+ <tileset firstgid="2385" source="GrassFlowers.tsx"/>
+ <layer name="Walkable" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE82UTQoCMQxGpwvP4WFEXIh4znbW7lTciB7LFqbQCflpm1Qm8HAx5U38psk0baf2O/4Z9zzVw7XzjPiFVN6tKd+v9WNY9p8IhL/HXfqhNxj7pXx6/a/IjUHrl8j1djyf5fxXOAfJlbKa3fq35F6ZN5W/Z9zByD8Dp1X/aXalc9CPzVHeQSVS/4Hwc3sGq9b+IdL+pHLn/AH4ubLoX+M/Ry6Rq5B/r/8QOUZOg/ywf2rPj8pHmz+VTzDyj/6+/74/2BzWzG9v/9J/sPBT76zZz9j9aZmBreWDfV+NX5ov7R3V5tPqb81HukPSftb6sXwsd/To/Gv2z5b77/X/AHjqErUADwAA
+  </data>
+ </layer>
+ <layer name="Surf" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3OsQ0AIAhFQcKIlrj/Hg4gdtjdS2jvEyFJ0t3K91XObFT2twf9bm/S//0/n8/n8/n8Of8At1ATIwAPAAA=
+  </data>
+ </layer>
+ <layer name="Water" width="24" height="40" opacity="0.96">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE2NgGAWjYBSMglEwChAgkImBIQiKcYFgPHKEQCRQbxQU0wKMmj9q/qj5g8d85PIEGVPLfGT1UUToHTUfu15YPMXQyHxs6kbNHzV/oMwHAITBMYwADwAA
+  </data>
+ </layer>
+ <layer name="Walkable" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3QsQkAIBBD0dxsIhYit/823gKmsxD/g7QpvgQAwFkLqddG3Pmf9btq+eg/fTz6ePTx6OPRx6OP92ufDX58+goADwAA
+  </data>
+ </layer>
+ <layer name="Grass" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3MsREAEBQE0fv9V4cIERpxsUAmsm9m05UAAMBNCim7Em/+1d/mOn/+/Pkfhr/TrUd/4Dcbsc49wgAPAAA=
+  </data>
+ </layer>
+ <layer name="LedgesDown" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3LMQoAIAwDwA59vPpqR6mDiK53kClJBPzrWTNydW3rbv6nLQAAwIsJ5QmWaQAPAAA=
+  </data>
+ </layer>
+ <layer name="LedgesLeft" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3MMQ0AAAgDsB34F4DaqSA8rYAmXNvxAwAAfCthotBJAA8AAA==
+  </data>
+ </layer>
+ <layer name="LedgesRight" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3MIQEAAAgDsAv6a+K+BAKxBVjCtR0/AADANwWFvYx/AA8AAA==
+  </data>
+ </layer>
+ <layer name="Collisions" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+2WSwrCMBBAk1IX7v3gphHcaMULuFFciW48gqfRC3oCT2KCHbBlmpl0piDowNCWNC/T16aJGxjjmDn1uYrkTNA3ZEmMv0T6QNucOUZqQu1lNYZ2QO2uZz48Q1/8lNrvef36luP3deWnxC/zr0M6pfy+6w8x8n3HLSmZu8AvqvmJjSOZu03+AvnnafFD7ZuO/JM15mzf5zt/vNh6e+AXCDuF/xna/G2Dt1fmHxq8499PLTh+wtqO7R+0/EjmF8ePhE/5ATfY/kfDzyPD2Vw+5eeZtfdde+5E6CfG56wvlB8pX+KHw9fwA+8BCw0/sW9Iw0+ML/VDfaNSP9Q7lvqh+FI/FP+b/bwAvwmuSwAPAAA=
+  </data>
+ </layer>
+ <layer name="WalkBehind" width="24" height="40">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAE+3BAQ0AAADCoPdPbQ8HFAAAAPwbZzTZygAPAAA=
+  </data>
+ </layer>
+ <objectgroup name="warp">
+  <object id="1" x="159.75" y="638.25" width="48.75" height="1.5">
+   <properties>
+    <property name="direction" type="int" value="1"/>
+    <property name="warpLocation" value="6.-4"/>
+    <property name="x" type="float" value="23"/>
+    <property name="y" type="float" value="38"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
